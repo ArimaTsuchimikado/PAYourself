@@ -165,20 +165,3 @@ function calculrendu(){
 
 //bloqué validé si pas apuyer sur cb,cheque, espéce
 
-
-
-
-
-
-var mysql = require('mysql');
-
-var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "password"
-});
-
-con.connect(function(err) {
-  if (err) throw err;
-  document.getElementById('test3').innerHTML ='test';
-});
