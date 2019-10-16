@@ -1,0 +1,340 @@
+.body{
+	position:absolute; 
+	height:100%; 
+	width:100%; 
+	margin:0px; 
+	padding:0px; 
+	background-color:#AAAAAA;
+}
+
+#SessionContent{
+	position:absolute; 
+	left:0px; 
+	right:0px; 
+	top:0px; 
+	bottom: 0px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:white;
+}
+
+#Sandwich,#BoissonChaudes,#Jus,#BoissonSoft,#Biere,#Salade,#Crepes,#Maison{
+	position:absolute; 
+	left:0px; 
+	right:0px; 
+	top:0px; 
+	bottom: 
+	100px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:black; 
+	overflow-y: scroll; 
+	visibility: hidden;
+}
+
+#SessionChoose{
+	position:absolute; 
+	left:0px; 
+	right:0px; 
+	top:0px; 
+	bottom: 100px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:black; 
+	overflow-y: scroll; 
+	visibility: visible;
+}
+
+#normalbutton{
+	position:float; 
+	float: left; 
+	width:300px; 
+	height:300px; 
+	margin:10px; 
+	background-color:white; 
+	line-height:50px;
+	text-transform: uppercase;
+}
+
+#animatebutton{
+	position:float; 
+	float: left; 
+	width:300px; 
+	height:300px; 
+	margin:10px; 
+	background-color:white; 
+	line-height:50px;
+	text-transform: uppercase;
+}
+
+#specialbutton{
+	position:float; 
+	float: left; 
+	width:300px; 
+	height:300px; 
+	margin:10px; 
+	background-color:#8495e1; 
+	line-height:50px;
+	text-transform: uppercase;
+}
+
+#animatebutton:hover,#normalbutton:hover,#specialbutton:hover {
+  	box-shadow: 0px 2px 10px 5px #13277c;
+  	color: #000;
+}
+#animatebutton:active,#specialbutton:active{
+	transition-duration: 1s;
+	transition: 0s;
+	background-color:#13277c;
+}
+
+#SessionRecap{
+	position:absolute; 
+	left:0px; 
+	right:0px; 
+	top:0px; 
+	bottom: 200px; 
+	margin:0px;
+	padding:0px; 
+	background-color:black; 
+	overflow-y: scroll; 
+	visibility: hidden;
+	text-transform: uppercase;
+}
+
+#Paiement{
+	position:absolute; 
+	left:0px; 
+	right:0px; 
+	height:250px; 
+	bottom:100px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:black;
+	visibility: hidden;
+}
+
+#Cheque{
+	position:absolute; 
+	width:190px; 
+	left:0px; 
+	top:0px; 
+	bottom: 170px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:white;
+	text-align:center;
+	text-transform: uppercase;
+	visibility: ;
+}
+
+#Cheque2{
+	position:absolute; 
+	width:190px; 
+	left:0px; 
+	top:0px; 
+	bottom: 170px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:#c09323;
+	text-align:center;
+	text-transform: uppercase;
+	visibility: ;
+}
+
+
+#CB{
+	position:absolute; 
+	width:190px; 
+	left:0px; 
+	top:90px; 
+	bottom: 50px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:white;
+	text-align:center;
+	text-transform: uppercase;
+	visibility: ;
+}
+
+#CB2{
+	position:absolute; 
+	width:190px; 
+	left:0px; 
+	top:90px; 
+	bottom:50px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:#c09323;
+	text-align:center;
+	text-transform: uppercase;
+	visibility: ;
+}
+
+#Especes{
+	position:absolute; 
+	width:190px; 
+	left:200px; 
+	top:00px; 
+	bottom: 50px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:white;
+	text-align:center;
+	text-transform: uppercase;
+	visibility: ;
+}
+
+#Especes2{
+	position:absolute; 
+	width:190px; 
+	left:200px; 
+	top:00px; 
+	bottom: 50px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:#c09323;
+	text-align:center;
+	text-transform: uppercase;
+	visibility: ;
+}
+
+#textemontant{
+	position:absolute; 
+	width:190px; 
+	left:410px; 
+	top:-20px; 
+	bottom: 0px; 
+	margin:0px; 
+	padding:0px; 
+	color: white;
+	background-color:black;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+#montant{
+	position:absolute; 
+	width:190px; 
+	left:400px; 
+	top:60px; 
+	bottom:140px; 
+	margin:0px; 
+	padding:10px; 
+	background-color:white;
+	text-align:center;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight:bold;
+}
+/*
+#boutonrendu{
+	position:absolute; 
+	width:215px; 
+	left:400px; 
+	top:130px; 
+	bottom:10px; 
+	margin:0px; 
+	padding:18px; 
+	color: white;
+	background-color:blue;
+	text-align:center;
+	text-transform: uppercase;
+}
+*/
+
+#sommearendre{
+	position:absolute; 
+	width:215px; 
+	left:640px; 
+	top:0px; 
+	bottom:50px; 
+	margin:0px; 
+	padding:10px; 
+	color: white;
+	background-color: #7817d4;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+#SessionSummary{
+	position:absolute; 
+	left:0px; 
+	right:0px; 
+	height:100px; 
+	bottom: 0px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:gray;
+}
+
+#Sum,#Sum2{
+	position:absolute; 
+	left:0px; 
+	right:200px; 
+	top:0px; 
+	bottom: 0px; 
+	margin:5px; 
+	padding:auto; 
+	background-color:white; 
+	text-align:center;
+	align: center;
+	text-transform: uppercase;
+}
+
+#SessionBilling{
+	position:absolute; 
+	width:190px; 
+	right:0px; 
+	top:0px; 
+	bottom: 0px; 
+	margin:5px; 
+	padding:0px; 
+	background-color:yellow;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+#SessionSummary2{
+	position:absolute; 
+	left:0px; 
+	right:0px; 
+	height:100px; 
+	bottom: 0px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:gray; 
+	visibility: hidden;
+
+}
+
+#SessionCommande1{
+	position:absolute; 
+	width:190px; 
+	left:0px; 
+	top:0px; 
+	bottom: 0px; 
+	margin:5px; 
+	padding:0px; 
+	background-color:green;
+	text-transform: uppercase;
+
+}
+
+#SessionCommande2{
+	position:absolute; 
+	width:190px; 
+	right:200px; 
+	top:0px; 
+	bottom: 0px; 
+	margin:5px; 
+	padding:0px; 
+	background-color:red;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+#SessionCommande2:hover,#SessionCommande1:hover,#SessionBilling:hover{
+  	box-shadow: 0px 2px 10px 5px black;
+  	color: #000;
+}
